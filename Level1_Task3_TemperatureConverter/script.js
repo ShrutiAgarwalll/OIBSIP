@@ -21,7 +21,7 @@ const calculatetemp = () => {
         result = celtofah(numbertemp);
         document.getElementById('resultcontainer').innerHTML =`= ${result}°fahrenheit`;
     }
-    else (valuetemp== 'fah') 
+    else
     {
         result = fahtocel(numbertemp);
         document.getElementById('resultcontainer').innerHTML = `= ${result}°celsius`;
