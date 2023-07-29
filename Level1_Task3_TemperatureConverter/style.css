@@ -1,0 +1,65 @@
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('pexels-syed-qaarif-andrabi-6685419.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+label{
+    font-size: 30px;
+    line-height: 78px;
+}
+#submit{
+    font-size: 18px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 30px 0 20px 0;
+    transition: all 0.5s ease;
+    background-color: rgb(188, 188, 173);
+    ;
+
+}
+#temp{
+      width: 100px;
+      height: 34px;
+      border-radius: 5px;
+      padding: 8px;
+      border: none;
+      outline: none;
+      margin: 12px;
+      font-size: 20px;
+      font-weight: 500;
+}
+#temp_diff{
+          width: 120px;
+          height:34px;
+          margin: 12px;
+          border-radius: 5px;
+          font-size: 18px;
+          font-weight: 500;
+          border: none;
+          outline: none;
+        }
+#resultcontainer{
+    font-size: 27px;
+}
+#calcTemp{
+        background-color: rgba(5, 8, 100, 0);
+        min-height: 290px;
+        padding: 29px 67px;
+}
+#submit:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
